@@ -1,0 +1,7 @@
+{
+  "name": "Calculadora App Interdata",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

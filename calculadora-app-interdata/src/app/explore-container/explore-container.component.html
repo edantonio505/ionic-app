@@ -1,0 +1,30 @@
+<div id="container">
+
+
+    <h1>Calculadora</h1>
+
+
+
+    <h2>Resultado: {{resultado}}</h2>
+
+
+
+
+    <!-- create input for simple calculator that takes in 2 numbers -->
+    <input type="text"
+      [(ngModel)]="numero1"
+    id="numero1" placeholder="tu primer numero">
+
+
+    <input type="text"  
+      [(ngModel)]="numero2"
+    id="numero2" placeholder="tu segundo numero"> 
+
+     <br>
+    <!-- button -->
+
+    <ion-button
+      (click)="suma()"
+
+    >Suma</ion-button>
+</div>
